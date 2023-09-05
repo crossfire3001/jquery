@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jQuery</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -19,11 +22,68 @@
         <li>list item 3</li>
       </ul>
     </div>
-    <h2> testtttt</h2>
+    <h2>testtttt</h2>
     <h3>AFade TEsting</h3>
     <h4>animate me!</h4>
 
+    <div id="accordion">
+      <h3>Section 1</h3>
+      <div>
+        <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget. Integer ut
+          neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo
+          ut odio.
+        </p>
+      </div>
+      <h3>Section 2</h3>
+      <div>
+        <p>
+          Sed non urna. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus
+          hendrerit, dolor aliquet laoreet, mauris turpis velit, faucibus
+          interdum tellus libero ac justo.
+        </p>
+      </div>
+      <h3>Section 3</h3>
+      <div>
+        <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque
+          lobortis.Phasellus pellentesque purus in massa.
+        </p>
+        <ul>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="single-item">
+        <div>
+          <div class="image">
+            <img src="images/fonz1.png" alt="img" />
+          </div>
+        </div>
+        <div>
+          <div class="image">
+            <img src="images/fonz2.png" alt="img" />
+          </div>
+        </div>
+        <div>
+          <div class="image">
+            <img src="images/fonz3.png" alt="img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button id="opener">open the dialog</button>
+    <div id="dialog" title="Dialog Title">I'm a dialog</div>
+
     <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

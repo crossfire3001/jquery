@@ -1,3 +1,16 @@
 body {
   background-color: grey;
 }
+
+.ui-state-default {
+  background-color: orange;
+}
+
+.ui-accordion-content-active {
+  background-color: moccasin;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

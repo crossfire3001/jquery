@@ -42,13 +42,28 @@ $(document).ready(function () {
     $("h2").hide();
   });
 
-  $("h3").click(function () {
+  /* $("h3").click(function () {
     $("h3").fadeOut("slow", "linear", () => {
       console.log("end");
     });
-  });
+  }); */
 
   $("h4").click(function () {
     $("h4").animate({ fontSize: "70px", marginLeft: "+=50px" });
+  });
+
+  $("#accordion").accordion();
+
+  $("#dialog").dialog({ autoOpen: false });
+  $("#opener").click(function () {
+    $("#dialog").dialog("open");
+  });
+
+  $('.single-item').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
   });
 });
